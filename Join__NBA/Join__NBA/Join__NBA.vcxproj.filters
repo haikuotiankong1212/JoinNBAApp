@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="通用">
+      <UniqueIdentifier>e29e2363-291d-47a9-9fe9-6fbf2755cd2f</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资产">
+      <UniqueIdentifier>52896b85-36f3-44c3-bb17-a12368e5e609</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataModel">
+      <UniqueIdentifier>a9833637-a4eb-43ba-a80d-501d8868c929</UniqueIdentifier>
+    </Filter>
+    <None Include="Common\ReadMe.txt">
+      <Filter>通用</Filter>
+    </None>
+    <Page Include="Common\StandardStyles.xaml">
+      <Filter>通用</Filter>
+    </Page>
+    <ClCompile Include="Common\BindableBase.cpp">
+      <Filter>通用</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BooleanToVisibilityConverter.cpp">
+      <Filter>通用</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BooleanNegationConverter.cpp">
+      <Filter>通用</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\RichTextColumns.cpp">
+      <Filter>通用</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LayoutAwarePage.cpp">
+      <Filter>通用</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SuspensionManager.cpp">
+      <Filter>通用</Filter>
+    </ClCompile>
+    <ClInclude Include="Common\BindableBase.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BooleanToVisibilityConverter.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BooleanNegationConverter.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RichTextColumns.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LayoutAwarePage.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SuspensionManager.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <Image Include="Assets\Logo.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\LightGray.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\MediumGray.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\DarkGray.png">
+      <Filter>资产</Filter>
+    </Image>
+    <ClCompile Include="DataModel\SampleDataSource.cpp">
+      <Filter>DataModel</Filter>
+    </ClCompile>
+    <ClInclude Include="DataModel\SampleDataSource.h">
+      <Filter>DataModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="GroupedItemsPage.xaml.cpp" />
+    <ClCompile Include="GroupDetailPage.xaml.cpp" />
+    <ClCompile Include="ItemDetailPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="GroupedItemsPage.xaml.h" />
+    <ClInclude Include="GroupDetailPage.xaml.h" />
+    <ClInclude Include="ItemDetailPage.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Join__NBA_TemporaryKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="Join__NBA_StoreKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="GroupedItemsPage.xaml" />
+    <Page Include="GroupDetailPage.xaml" />
+    <Page Include="ItemDetailPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\shuidi.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\weide.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\weishao.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\weisite.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\xibote.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\xier.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\yibaka.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\zongse.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\andongni.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\axike.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\badier.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\baoluo.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\boshi.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\buxingzhe.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\buzeer.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\dahai.jpg">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\delong.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\dulante.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\first.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\gelanjie.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\gongniu.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\hadeng.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\huojian.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\jianeite.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\jiangse.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\jibusen.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\kebi.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\lanwang.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\leialun.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\leiji.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\leiting.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\linshuhao.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\luerdeng.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\luopeizi.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\luosi.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\moshou.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\nuoa.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\pajinsi.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\pasensi.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\piersi.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\qiao.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\qiaodan.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\qiaozhi.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\rehuo.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\2424.png" />
+  </ItemGroup>
+</Project>
